@@ -1,0 +1,1627 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+#p_close_menu{
+    display: none;
+}
+img{
+    display: none;
+}
+.logo{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7));
+}
+.logo p{
+    color: orangered;
+    font-size: 17px;
+    margin: 20px 50px;
+}
+.navbar_div{
+    display: block;
+}
+.navbar_div ul{
+    list-style-type: none;
+    position: absolute;
+    top: 35%;
+    right: 10%;
+}
+.navbar_div ul li{
+    display: inline-block;
+    margin-right:90px;
+}
+.navbar_div ul li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+#active{
+    color:red;
+}
+.navbar_div ul li a:hover{
+    color: red;
+}
+
+    /* [--- This section is for Fueling page properties ---] */
+
+.fueling_div{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 750px;
+    background:white;
+    margin: 10px;
+}
+.see_more_div{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 50%;
+    height: 600px;
+    background: url('service.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.see_more{
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    width: 40%;
+    height: 300px;
+}
+.see_more p{
+    color: #000;
+    font-size: 17px;
+    line-height: 2;
+}
+.testimonial-div{
+    position: absolute;
+    bottom: 0%;
+    right:2%;
+    width: 45%;
+    height:300px;
+    background: darkcyan;
+}
+.testimonial_image{
+    position: absolute;
+    bottom: 80%;
+    right:40%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url('testimonial1.png');
+    background-position: center;
+    background-size: cover;
+}
+.testimonial-div h1{
+    position: absolute;
+    bottom: 5%;
+    right:20%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+.testimonial-div p{
+    margin-top: 50px;
+    line-height: 1.5;
+    font-size: 17px;
+    padding: 25px;
+    font-family: georgia;
+    margin-left: 20px;
+    font-weight: bolder;
+    color: silver;
+}
+#access_btn{
+    position: absolute;
+    top: 13%;
+    right: 10%;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background: darkcyan;
+    color:wheat;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: 0.5s;
+}
+#access_btn:hover{
+    background:green;
+}
+
+/* --[ This section contain storey.html page properties --] */
+
+.storey_div{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 750px;
+    background:white;
+    margin: 10px;
+}
+.storey_see_more_div{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 50%;
+    height: 600px;
+    background: url('service2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.storey_see_more{
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    width: 40%;
+    height: 300px;
+}
+.storey_see_more p{
+    color: #000;
+    font-size: 17px;
+    line-height: 2;
+}
+.storey_testimonial-div{
+    position: absolute;
+    bottom: 0%;
+    right:2%;
+    width: 45%;
+    height:300px;
+    background: darkcyan;
+}
+.storey_testimonial_image{
+    position: absolute;
+    bottom: 80%;
+    right:40%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url('testimonial2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.storey_testimonial-div h1{
+    position: absolute;
+    bottom: 5%;
+    right:20%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+.storey_testimonial-div p{
+    margin-top: 50px;
+    line-height: 1.5;
+    font-size: 17px;
+    padding: 25px;
+    font-family: georgia;
+    margin-left: 20px;
+    font-weight: bolder;
+    color: silver;
+}
+#storey_access_btn{
+    position: absolute;
+    top: 13%;
+    right: 10%;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background:darkcyan ;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: 0.5s;
+}
+#storey_access_btn:hover{
+    background:green;
+}
+#storey_previous_btn{
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background: darkcyan;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: 0.5s;
+}
+#storey_previous_btn:hover{
+    background:green;
+}
+
+/* --[ This section contain estate.html page properties --] */
+
+.estate_div{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 750px;
+    background:white;
+    margin: 10px;
+}
+.estate_see_more_div{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 50%;
+    height: 600px;
+    background: url('bg9.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.estate_see_more{
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    width: 40%;
+    height: 300px;
+}
+.estate_see_more p{
+    color: #000;
+    font-size: 17px;
+    line-height: 2;
+}
+.estate_testimonial-div{
+    position: absolute;
+    bottom: 0%;
+    right:2%;
+    width: 45%;
+    height:300px;
+    background: darkcyan;
+}
+.estate_testimonial_image{
+    position: absolute;
+    bottom: 80%;
+    right:40%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url('testimonial3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.estate_testimonial-div h1{
+    position: absolute;
+    bottom: 5%;
+    right:20%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+.estate_testimonial-div p{
+    margin-top: 50px;
+    line-height: 1.5;
+    font-size: 17px;
+    padding: 25px;
+    font-family: georgia;
+    margin-left: 20px;
+    font-weight: bolder;
+    color: silver;
+}
+#estate_access_btn{
+    position: absolute;
+    top: 13%;
+    right: 10%;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background:darkcyan ;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: 0.5s;
+}
+#estate_access_btn:hover{
+    background:green;
+}
+#estate_previous_btn{
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background: darkcyan;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: 0.5s;
+}
+#estate_previous_btn:hover{
+    background:green;
+}
+
+/* --[ This section contain hotel.html page properties --] */
+
+.hotel_div{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 750px;
+    background:white;
+    margin: 10px;
+}
+.hotel_see_more_div{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 50%;
+    height: 600px;
+    background: url('service4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.hotel_see_more{
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    width: 40%;
+    height: 300px;
+}
+.hotel_see_more p{
+    color: #000;
+    font-size: 17px;
+    line-height: 2;
+}
+.hotel_testimonial-div{
+    position: absolute;
+    bottom: 0%;
+    right:2%;
+    width: 45%;
+    height:300px;
+    background: darkcyan;
+}
+.hotel_testimonial_image{
+    position: absolute;
+    bottom: 80%;
+    right:40%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url('testimonial4.png');
+    background-position: center;
+    background-size: cover;
+}
+.hotel_testimonial-div h1{
+    position: absolute;
+    bottom: 5%;
+    right:20%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+.hotel_testimonial-div p{
+    margin-top: 50px;
+    line-height: 1.5;
+    font-size: 17px;
+    padding: 25px;
+    font-family: georgia;
+    margin-left: 20px;
+    font-weight: bolder;
+    color: silver;
+}
+#hotel_access_btn{
+    position: absolute;
+    top: 13%;
+    right: 10%;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background:darkcyan ;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: 0.5s;
+}
+#hotel_access_btn:hover{
+    background:green;
+}
+#hotel_previous_btn{
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background: darkcyan;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: 0.5s;
+}
+#hotel_previous_btn:hover{
+    background:green;
+}
+
+
+/* --[ This section contain agro_farm.html page properties --] */
+
+.agro_farm_div{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 750px;
+    background:white;
+    margin: 10px;
+}
+.agro_see_more_div{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 50%;
+    height: 600px;
+    background: url('agro.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.agro_see_more{
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    width: 40%;
+    height: 300px;
+}
+.agro_see_more p{
+    color: #000;
+    font-size: 17px;
+    line-height: 2;
+}
+.agro_testimonial-div{
+    position: absolute;
+    bottom: 0%;
+    right:2%;
+    width: 45%;
+    height:300px;
+    background: darkcyan;
+}
+.agro_testimonial_image{
+    position: absolute;
+    bottom: 80%;
+    right:40%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url('testimonial5.png');
+    background-position: center;
+    background-size: cover;
+}
+.agro_testimonial-div h1{
+    position: absolute;
+    bottom: 5%;
+    right:20%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+.agro_testimonial-div p{
+    margin-top: 50px;
+    line-height: 1.5;
+    font-size: 17px;
+    padding: 25px;
+    font-family: georgia;
+    margin-left: 20px;
+    font-weight: bolder;
+    color: silver;
+}
+#agro_access_btn{
+    position: absolute;
+    top: 13%;
+    right: 10%;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    outline:none;
+    background:darkcyan ;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: 0.5s;
+}
+#agro_access_btn:hover{
+    background:green;
+}
+#agro_previous_btn{
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background: darkcyan;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: 0.5s;
+}
+#agro_previous_btn:hover{
+    background:green;
+}
+
+/* --[ This section contain goods.html page properties --] */
+
+.goods_div{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 750px;
+    background:white;
+    margin: 10px;
+}
+.goods_see_more_div{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 50%;
+    height: 600px;
+    background: url('wawa2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.goods_see_more{
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    width: 40%;
+    height: 300px;
+}
+.goods_see_more p{
+    color: #000;
+    font-size: 17px;
+    line-height: 2;
+}
+.goods_testimonial-div{
+    position: absolute;
+    bottom: 0%;
+    right:2%;
+    width: 45%;
+    height:300px;
+    background: darkcyan;
+}
+.goods_testimonial_image{
+    position: absolute;
+    bottom: 80%;
+    right:40%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url('testimonial6.png');
+    background-position: center;
+    background-size: cover;
+}
+.goods_testimonial-div h1{
+    position: absolute;
+    bottom: 5%;
+    right:20%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+.goods_testimonial-div p{
+    margin-top: 50px;
+    line-height: 1.5;
+    font-size: 17px;
+    padding: 25px;
+    font-family: georgia;
+    margin-left: 20px;
+    font-weight: bolder;
+    color: silver;
+}
+#goods_access_btn{
+    position: absolute;
+    top: 13%;
+    right: 10%;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background:darkcyan ;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: 0.5s;
+}
+#goods_access_btn:hover{
+    background:green;
+}
+#goods_previous_btn{
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background: darkcyan;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: 0.5s;
+}
+#goods_previous_btn:hover{
+    background:green;
+}
+
+    /*------- [ This section contain the @media query properties ] ---------*/
+
+
+@media all and (max-width:900px) {
+    .navbar_div{
+        display: none;
+    }
+    .navbar_div ul {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9));
+    }
+    .navbar_div ul li{
+        text-align: center;
+        display: block;
+        margin: 100px 0px;
+        transition: 0.5s;
+        font-size: 17px;
+    }
+    .navbar_div ul li a:hover{
+        color: red;
+    }
+    .logo{
+        position: fixed;
+        z-index: 9;
+        width: 100%;
+        height: 50px;
+        background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7));
+    }
+    .logo p{
+        color: orangered;
+        font-size: 15px;
+        margin: 20px 30px;
+    }
+    img{
+        display: block;
+        position: absolute;
+        top: 25%;
+        right: 10%;
+        width: 40px;
+        padding: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    #see_more_btn{
+        width: 150px;
+        padding: 10px;
+        background:silver;
+        margin-left: 50px;
+        border: none;
+        outline: none;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 15px;
+        cursor: pointer;
+        transition: 0.5s;
+        margin-top: 20px;
+    }
+    #p_close_menu{
+        display: block;
+        position: absolute;
+        top: 2%;
+        left:0%;
+        cursor: pointer;
+        font-size: 20px;
+        transition: 0.5s;
+        background: teal;
+        width: 40px;
+        padding: 5px;
+        text-align: center;
+        border-radius: 50%;
+    }
+    #p_close_menu:hover{
+        color: aliceblue;
+        text-shadow:2px 2px 2px maroon;
+    }
+    marquee{
+        width: 100%;
+        font-size:20px;
+    }
+    .logo p{
+        color: orangered;
+        font-size: 17px;
+        margin: 10px 30px;
+    }
+    
+    /* ---[ This section is for about properties ]---*/
+
+    #about{
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        width: 100%;
+        height: 190vh;
+        background:steelblue;
+    }
+    .para{
+        position:absolute;
+        top: 20%;
+        right: 35%;
+        width: 100%;
+        height: auto;
+    }
+    .para ul{
+        list-style-type:disc;
+    }
+    .para ul li{
+        font-size: 20px;
+        font-family: geneva;
+        line-height: 2;
+        font-weight: bolder;
+    }
+    #our_team_div{
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        bottom:0%;
+        right:0%;
+        width: 100%;
+        height: 980px;
+        margin: 5px;
+        background: lime
+        ;
+    }
+    #our_team_div h1{
+        margin-top:20px;
+        color: green;
+        font-size: 20px;
+        position: absolute;
+        text-shadow: 2px 2px 2px #000;
+        letter-spacing: 2px;
+    }
+    .founder_contianer{
+        position: absolute;
+        top: 5%;
+        left:5%;
+        width: 300px;
+        height: auto;
+        background-color: #fff;
+        border: 2px solid #000;
+        border-radius: 15px;
+    }
+    .founder_contianer h2{
+        color: green;
+        font-size: 17px;
+        text-align: center;
+        line-height: 1.5;
+        text-shadow: 2px 2px 2px #000;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    .founder_contianer h3{
+        text-indent: 30px;
+        color: rgb(6, 109, 6);
+    }
+    .founder_contianer p{
+        padding: 15px;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /*-- [ this section is for company accountant properties ] -- */
+
+    .company_accountant_div{
+        position: absolute;
+        bottom: 2%;
+        right:0%;
+        width: 300px;
+        height: auto;
+        background-color: #fff;
+        border: 2px solid #000;
+        border-radius: 15px;
+    }
+    .company_accountant_div h2{
+        color: green;
+        font-size: 20px;
+        text-align: center;
+        line-height: 2;
+        text-shadow: 2px 2px 2px #000;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    .company_accountant_div h3{
+        text-indent: 30px;
+        color: rgb(6, 109, 6);
+    }
+    .company_accountant_div p{
+        padding: 15px;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /*---[ This section is for heat of tech ]---*/
+    .Head_of_tech{
+        position: absolute;
+        bottom: 0%;
+        right:0%;
+        width: 300px;
+        height: auto;
+        background-color: #fff;
+        border: 2px solid #000;
+        border-radius: 15px;
+    }
+    .Head_of_tech h2{
+        color: green;
+        font-size: 20px;
+        text-align: center;
+        line-height: 2;
+        text-shadow: 2px 2px 2px #000;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    .Head_of_tech h3{
+        text-indent: 30px;
+        color: rgb(6, 109, 6);
+    }
+    .Head_of_tech p{
+        padding: 15px;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /*-----[ This section contain Filling state page media query ]----*/
+
+    .fueling_div{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 1000px;
+        background:white;
+        margin: 10px;
+    }
+    .see_more_div{
+        position: absolute;
+        top: 10%;
+        left: 4%;
+        width: 90%;
+        height: 300px;
+        background: url('service.jpeg');
+        background-position: center;
+        background-size: cover;
+    }
+    .see_more{
+        position: absolute;
+        top: 39%;
+        right: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .see_more p{
+        color: #000;
+        font-size: 15px;
+        line-height: 2;
+        padding: 15px;
+    }
+    .testimonial-div{
+        position: absolute;
+        top:70%;
+        right:5%;
+        width: 95%;
+        height:auto;
+        background: darkcyan;
+    }
+    .testimonial_image{
+        position: absolute;
+        bottom: 80%;
+        right:43%;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: url('testimonial1.png');
+        background-position: center;
+        background-size: cover;
+    }
+    .testimonial-div h1{
+        position: absolute;
+        top: 80%;
+        right: 20%;
+        color: #fff;
+        font-size: 17px;
+        text-align: center;
+        text-shadow: 2px 2px 2px #000;
+    }
+    .testimonial-div p{
+        margin-top: 50px;
+        font-size: 15px;
+        line-height: 1.5;
+        padding: 15px;
+        font-family: sans-serif;
+        font-weight: bolder;
+    }
+    #access_btn{
+        position: absolute;
+        top: 6%;
+        right: 10%;
+        width: 70px;
+        padding: 5px;
+        border: none;
+        outline: none;
+        background: darkcyan;
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        transition: 0.5s;
+    }
+    #access_btn:hover{
+        background:green;
+    }
+    /*--[ this section contain storey building properties ]--*/
+
+    .storey_div{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 1000px;
+        background:white;
+        margin: 10px;
+    }
+    .storey_see_more_div{
+        position: absolute;
+        top: 10%;
+        left: 4%;
+        width: 90%;
+        height: 300px;
+        background: url('service2.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .storey_see_more{
+        position: absolute;
+        top: 39%;
+        right: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .storey_see_more p{
+        color: #000;
+        font-size: 15px;
+        line-height: 2;
+        padding: 15px;
+    }
+    .storey_testimonial-div{
+        position: absolute;
+        top:70%;
+        right:5%;
+        width: 95%;
+        height:auto;
+        background: darkcyan;
+    }
+    .storey_testimonial_image{
+        position: absolute;
+        bottom: 80%;
+        right:43%;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: url('testimonial2.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .storey_testimonial-div h1{
+        position: absolute;
+        top: 80%;
+        right: 20%;
+        color: #fff;
+        font-size: 17px;
+        text-align: center;
+        text-shadow: 2px 2px 2px #000;
+    }
+    .storey_testimonial-div p{
+        margin-top: 50px;
+        font-size: 15px;
+        line-height: 1.5;
+        padding: 15px;
+        font-family: sans-serif;
+        font-weight: bolder;
+    }
+    #storey_access_btn{
+        position: absolute;
+        top: 6%;
+        right: 10%;
+        width: 70px;
+        padding: 5px;
+        border: none;
+        outline: none;
+        background: darkcyan;
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        transition: 0.5s;
+    }
+    #storey_access_btn:hover{
+        background:green;
+    }
+    #storey_previous_btn{
+        position: absolute;
+        top: 6%;
+        left: 10%;
+        width: 70px;
+        padding: 5px;
+        border: none;
+        outline: none;
+        background: darkcyan;
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        transition: 0.5s;
+    }
+    #storey_access_btn:hover{
+        background:green;
+    }
+    /*--[ this section contain estate building properties ]--*/
+
+    .estate_div{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 1000px;
+        background:white;
+        margin: 10px;
+    }
+    .estate_see_more_div{
+        position: absolute;
+        top: 10%;
+        left: 4%;
+        width: 90%;
+        height: 300px;
+        background: url('bg9.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .estate_see_more{
+        position: absolute;
+        top: 39%;
+        right: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .estate_see_more p{
+        color: #000;
+        font-size: 15px;
+        line-height: 2;
+        padding: 15px;
+    }
+    .estate_testimonial-div{
+        position: absolute;
+        top:70%;
+        right:5%;
+        width: 95%;
+        height:auto;
+        background: darkcyan;
+    }
+    .estate_testimonial_image{
+        position: absolute;
+        bottom: 80%;
+        right:43%;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: url('testimonial3.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .estate_testimonial-div h1{
+        position: absolute;
+        top: 80%;
+        right: 20%;
+        color: #fff;
+        font-size: 17px;
+        text-align: center;
+        text-shadow: 2px 2px 2px #000;
+    }
+    .estate_testimonial-div p{
+        margin-top: 50px;
+        font-size: 15px;
+        line-height: 1.5;
+        padding: 15px;
+        font-family: sans-serif;
+        font-weight: bolder;
+    }
+    #estate_access_btn{
+        position: absolute;
+        top: 6%;
+        right: 10%;
+        width: 70px;
+        padding: 5px;
+        border: none;
+        outline: none;
+        background: darkcyan;
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        transition: 0.5s;
+    }
+    #estate_access_btn:hover{
+        background:green;
+    }
+    #estate_previous_btn{
+        position: absolute;
+        top: 6%;
+        left: 10%;
+        width: 70px;
+        padding: 5px;
+        border: none;
+        outline: none;
+        background: darkcyan;
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        transition: 0.5s;
+    }
+    #estate_access_btn:hover{
+        background:green;
+    }
+     /*--[ this section contain hotel building properties ]--*/
+
+     .hotel_div{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 1000px;
+        background:white;
+        margin: 10px;
+    }
+    .hotel_see_more_div{
+        position: absolute;
+        top: 10%;
+        left: 4%;
+        width: 90%;
+        height: 300px;
+        background: url('service4.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .hotel_see_more{
+        position: absolute;
+        top: 39%;
+        right: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .hotel_see_more p{
+        color: #000;
+        font-size: 15px;
+        line-height: 2;
+        padding: 15px;
+    }
+    .hotel_testimonial-div{
+        position: absolute;
+        top:70%;
+        right:5%;
+        width: 95%;
+        height:auto;
+        background: darkcyan;
+    }
+    .hotel_testimonial_image{
+        position: absolute;
+        bottom: 80%;
+        right:43%;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: url('testimonial4.png');
+        background-position: center;
+        background-size: cover;
+    }
+    .hotel_testimonial-div h1{
+        position: absolute;
+        top: 80%;
+        right: 20%;
+        color: #fff;
+        font-size: 17px;
+        text-align: center;
+        text-shadow: 2px 2px 2px #000;
+    }
+    .hotel_testimonial-div p{
+        margin-top: 50px;
+        font-size: 15px;
+        line-height: 1.5;
+        padding: 15px;
+        font-family: sans-serif;
+        font-weight: bolder;
+    }
+    #hotel_access_btn{
+        position: absolute;
+        top: 6%;
+        right: 10%;
+        width: 70px;
+        padding: 5px;
+        border: none;
+        outline: none;
+        background: darkcyan;
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        transition: 0.5s;
+    }
+    #hotel_access_btn:hover{
+        background:green;
+    }
+    #hotel_previous_btn{
+        position: absolute;
+        top: 6%;
+        left: 10%;
+        width: 70px;
+        padding: 5px;
+        border: none;
+        outline: none;
+        background: darkcyan;
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        transition: 0.5s;
+    }
+    #hotel_access_btn:hover{
+        background:green;
+    }
+     /*--[ this section contain agro_farm building properties ]--*/
+
+     .agro_farm_div{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 1000px;
+        background:white;
+        margin: 10px;
+    }
+    .agro_see_more_div{
+        position: absolute;
+        top: 10%;
+        left: 4%;
+        width: 90%;
+        height: 300px;
+        background: url('agro.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .agro_see_more{
+        position: absolute;
+        top: 39%;
+        right: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .agro_see_more p{
+        color: #000;
+        font-size: 15px;
+        line-height: 2;
+        padding: 15px;
+    }
+    .agro_testimonial-div{
+        position: absolute;
+        top:70%;
+        right:5%;
+        width: 95%;
+        height:auto;
+        background: darkcyan;
+    }
+    .agro_testimonial_image{
+        position: absolute;
+        bottom: 80%;
+        right:43%;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: url('testimonial5.png');
+        background-position: center;
+        background-size: cover;
+    }
+    .agro_testimonial-div h1{
+        position: absolute;
+        top: 85%;
+        right: 20%;
+        color: #fff;
+        font-size: 17px;
+        text-align: center;
+        text-shadow: 2px 2px 2px #000;
+    }
+    .agro_testimonial-div p{
+        margin-top: 50px;
+        font-size: 15px;
+        line-height: 1.5;
+        padding: 15px;
+        font-family: sans-serif;
+        font-weight: bolder;
+    }
+    #agro_access_btn{
+        position: absolute;
+        top: 6%;
+        right: 10%;
+        width: 70px;
+        padding: 5px;
+        border: none;
+        outline: none;
+        background: darkcyan;
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        transition: 0.5s;
+    }
+    #agro_access_btn:hover{
+        background:green;
+    }
+    #agro_previous_btn{
+        position: absolute;
+        top: 6%;
+        left: 10%;
+        width: 70px;
+        padding: 5px;
+        border: none;
+        outline: none;
+        background: darkcyan;
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        transition: 0.5s;
+    }
+    #agro_previous_btn:hover{
+        background:green;
+    }
+     /*--[ this section contain goods building properties ]--*/
+
+     .goods_div{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 1000px;
+        background:white;
+        margin: 10px;
+    }
+    .goods_see_more_div{
+        position: absolute;
+        top: 10%;
+        left: 4%;
+        width: 90%;
+        height: 300px;
+        background: url('wawa2.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .goods_see_more{
+        position: absolute;
+        top: 39%;
+        right: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .goods_see_more p{
+        color: #000;
+        font-size: 15px;
+        line-height: 2;
+        padding: 15px;
+    }
+    .goods_testimonial-div{
+        position: absolute;
+        top:70%;
+        right:5%;
+        width: 95%;
+        height:auto;
+        background: darkcyan;
+    }
+    .goods_testimonial_image{
+        position: absolute;
+        bottom: 80%;
+        right:43%;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: url('testimonial6.png');
+        background-position: center;
+        background-size: cover;
+    }
+    .goods_testimonial-div h1{
+        position: absolute;
+        top: 80%;
+        right: 20%;
+        color: #fff;
+        font-size: 17px;
+        text-align: center;
+        text-shadow: 2px 2px 2px #000;
+    }
+    .goods_testimonial-div p{
+        margin-top: 50px;
+        font-size: 15px;
+        line-height: 1.5;
+        padding: 15px;
+        font-family: sans-serif;
+        font-weight: bolder;
+    }
+    #goods_access_btn{
+        position: absolute;
+        top: 6%;
+        right: 10%;
+        width: 70px;
+        padding: 5px;
+        border: none;
+        outline: none;
+        background: darkcyan;
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        transition: 0.5s;
+    }
+    #goods_access_btn:hover{
+        background:green;
+    }
+    #goods_previous_btn{
+        position: absolute;
+        top: 6%;
+        left: 10%;
+        width: 70px;
+        padding: 5px;
+        border: none;
+        outline: none;
+        background: darkcyan;
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        transition: 0.5s;
+    }
+    #goods_access_btn:hover{
+        background:green;
+    }
+    .location{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 95%;
+        height: 400px;
+    }
+    .location h1{
+        color: white;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .location ul{
+        list-style-type: none;
+        margin: 10px 10px;
+    }
+    #office{
+        color: white;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    .location ul li{
+        font-size: 16px;
+        line-height: 2;
+        color: gray;
+    }
+    .contact{
+        position: absolute;
+        top:85%;
+        left: 0%;
+        display: block;
+    }
+    .contact h1{
+        color: white;
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+    .contact ul li{
+        display:block;
+    }
+    .contact a{
+        color: gray;
+        text-decoration: none;
+        font-size: 13px;
+        line-height: 3;
+    }
+    .social_media_div{
+        position: absolute;
+        top:85%;
+        right: 0%;
+        display:block;
+    }
+    .social_media_div h1{
+        color: white;
+        font-size: 15px;
+    }
+    .social_media_div ul li{
+        display: block;
+        font-size: 13px;
+    }
+    .social_media_div a{
+        color: gray;
+        text-decoration: none;
+        font-size: 13px;
+        line-height: 3;
+    }
+    footer p{
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: gray;
+        font-size: 13px;
+        text-align: center;
+
+    }
+    
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read more about Agro farm </title>
+    <link rel="stylesheet" href="extra_page.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>
+                <i>M-U-C <span style="color:white;">NIG</span> -LTD</i>
+            </p>
+            <nav>
+                <div class="navbar_div">
+                    <ul>
+                        <p onclick="closeMenu()" id="p_close_menu">X
+                            <li><a href="index.html" id="active">HOME</a></li>
+                    </ul>
+                    </p>
+                </div>
+                <img src="menu.png" onclick="myFunc()" id="btn">
+                <script>
+                    function myFunc() {
+                        document.querySelector('.navbar_div').style.display ="block";
+                        document.querySelector('.navbar_div').style.width ="50%";
+                        document.querySelector('.navbar_div').style.transition ="0.5s";
+                    }
+                    function closeMenu() {
+                        document.querySelector('.navbar_div').style.display ="none";
+                    }
+                </script>
+            </nav>
+        </div>
+        <div class="agro_farm_div">
+            <button><a href="goods.html" id="agro_access_btn">Next</a></button>
+            <button><a href="hotel.html" id="agro_previous_btn">Previous</a></button>
+            <div class="agro_see_more_div"> 
+            </div>
+            <div class="agro_see_more">
+                <p>2020 Project, contructing a fueling station that was build in Mabudi, it was build and suppervise by the head of Technical team</p>
+            </div>
+            <div class="agro_testimonial-div">
+                <p>Thanks you again for your assistance with this project. As usual, you do an excellent job. The team was very thorough with the plaining and kept me informed. They really did a good job with the construction. Thanks you very much</p>
+                <div class="agro_testimonial_image">
+                </div>
+                <h1>Mr Andrew John</h1>
+            </div>
+        </div>   
+    </header>
+</body>
+</html>

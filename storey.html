@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read more storey building</title>
+    <link rel="stylesheet" href="extra_page.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>
+                <i>M-U-C <span style="color:white;">NIG</span> -LTD</i>
+            </p>
+            <nav>
+                <div class="navbar_div">
+                    <ul>
+                        <p onclick="closeMenu()" id="p_close_menu">X
+                            <li><a href="index.html" id="active">HOME</a></li>
+                    </ul>
+                    </p>
+                </div>
+                <img src="menu.png" onclick="myFunc()" id="btn">
+                <script>
+                    function myFunc() {
+                        document.querySelector('.navbar_div').style.display ="block";
+                        document.querySelector('.navbar_div').style.width ="50%";
+                        document.querySelector('.navbar_div').style.transition ="0.5s";
+                    }
+                    function closeMenu() {
+                        document.querySelector('.navbar_div').style.display ="none";
+                    }
+                </script>
+            </nav>
+        </div>
+        <div class="storey_div">
+            <button><a href="estate.html" id="storey_access_btn">Next</a></button>
+            <button><a href="fueling.html" id="storey_previous_btn">Previous</a></button>
+            <div class="storey_see_more_div"> 
+            </div>
+            <div class="storey_see_more">
+                <p>This contract was sign between our company and Langtang south Local
+                     Government Chairman in person of Hon. Bendel Nantwat. To construct 
+                     and renovate the old market to a modern one. The project was build and supervise by our team.</p>
+            </div>
+            <div class="storey_testimonial-div">
+                <p>"...how pleased i am with the way our contruction project went earlier
+                     this year. Everything from the start of the project thorough completion
+                      confirmed that LTD made the right choice when we selected Mamzum Universal
+                       Concepts NIG, as our general contractor.</p>
+                <div class="storey_testimonial_image">
+                </div>
+                <h1>Prof. Dindul Kparmwang</h1>
+            </div>
+        </div>        
+    </header>
+</body>
+</html>

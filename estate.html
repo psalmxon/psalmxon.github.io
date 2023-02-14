@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read more about Estate contruction</title>
+    <link rel="stylesheet" href="extra_page.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>
+                <i>M-U-C <span style="color:white;">NIG</span> -LTD</i>
+            </p>
+            <nav>
+                <div class="navbar_div">
+                    <ul>
+                        <p onclick="closeMenu()" id="p_close_menu">X
+                            <li><a href="index.html" id="active">HOME</a></li>
+                    </ul>
+                    </p>
+                </div>
+                <img src="menu.png" onclick="myFunc()" id="btn">
+                <script>
+                    function myFunc() {
+                        document.querySelector('.navbar_div').style.display ="block";
+                        document.querySelector('.navbar_div').style.width ="50%";
+                        document.querySelector('.navbar_div').style.transition ="0.5s";
+                    }
+                    function closeMenu() {
+                        document.querySelector('.navbar_div').style.display ="none";
+                    }
+                </script>
+            </nav>
+        </div>
+        <div class="estate_div">
+            <button><a href="hotel.html" id="estate_access_btn">Next</a></button>
+            <button><a href="storey.html" id="estate_previous_btn">Previous</a></button>
+            <div class="estate_see_more_div"> 
+            </div>
+            <div class="estate_see_more">
+                <p>The company contractors and the entire team really did a good job in pulling this contract, A 16 toubble flat Estate was build and suppervise by Mumzum Universal Concepts NIG, LTD.</p>
+            </div>
+            <div class="estate_testimonial-div">
+                <p>"Mumzum Universal Concepts NIG. LTD is one of the best general constructors 
+                    we've worked with. The entire team tactfully delivered a project of exceptional
+                     quality while staying on schedule and under budget. We hope to work with Greiner again in the near future!"</p>
+                <div class="estate_testimonial_image">
+                </div>
+                <h1>Dr. Afolabi Wasiu</h1>
+            </div>
+        </div>        
+    </header>
+</body>
+</html>

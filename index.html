@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Mamzum universal concept NIG.LTD</title>
+    <!-- [ The css file is link below using external css type ] -->
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <header>
+        <div class="main">
+            <!-- this is logo div -->
+            <div class="logo">
+                <p>
+                    <i>M-U-C <span style="color:white;">NIG</span> -LTD</i>
+                </p>
+                <nav>
+                    <div class="navbar_div">
+                        <ul>
+                            <p onclick="closeMenu()" id="p_close_menu">X
+                                <li><a href="#" id="active">HOME</a></li>
+                                <li><a href="#services_div">SERVICES</a></li>
+                                <li><a href="#about">ABOUT</a></li>
+                                <li><a href="#contact_div">CONTACT</a></li>
+                        </ul>
+                            </p>
+                    </div>
+                    <img src="menu.png" onclick="myFunc()" id="btn">
+
+                    <!---- [ This is where javascript is place, this is responsible for the menu display on media query ] ---->
+
+                    <script>
+                        function myFunc() {
+                            document.querySelector('.navbar_div').style.display ="block";
+                            document.querySelector('.navbar_div').style.width ="50%";
+                            document.querySelector('.navbar_div').style.transition ="0.5s";
+                        }
+                        function closeMenu() {
+                            document.querySelector('.navbar_div').style.display ="none";
+                        }
+                    </script>
+                </nav>
+            </div>
+            <marquee behavior="" direction="right">Welcome to Mumzum Universal Concept NIG.LTD</marquee>
+            <div class="head_div">
+                <h1>Make Real Project</h1>
+                <p>With One of the best Construction Company in Nigeria</p>
+                <h2>We are into Constructions of all kind</h2>
+                <ul>
+                    <li>Building of your choice</li>
+                    <li>We deal with varieties of Agro farm products</li>
+                    <li>Constructions of Road, bridge, culvert and allot more </li>
+                    <li>We deal with buying and selling of goods and services</li>
+                </ul>
+                <button type="btn" id="see_more_btn"><a href="#about">Read more</a></button>
+            </div>
+        </div>
+    </header>
+
+        <!-- [ This section contain the services properties ] -->
+
+    <section>
+        <div id="services_div">
+            <div class="service_header">
+                <p><span style="font-size:40px;">M</span>amzum Universal Concepts
+                     NIG. LTD, We construct structure of all kinds redering from
+                      simple to bungalow to storey building, road and more. We 
+                      also deal with buying and selling of goods. And also 
+                      Execution of construction project ranging from blocks or 
+                      classrooms, Hospital facilities, Residential and complex
+                       comercial structures.
+                </p>
+            </div>
+
+            <!---- [ This div contain all the image that show project completed ] ---->
+
+            <div class="service_image">
+                <div class="image1">
+                    <p>Fueling station construction</p>
+                </div> 
+                <button type="btn" id="service_btn"><a href="fueling.html">Read more</a> </button>
+            </div> 
+            <div class="service_image">
+                <div class=" image2">
+                    <p>Modern market</p>
+                </div> 
+                   <button type="btn" id="service_btn"> <a href="storey.html">Read more</a></button>
+            </div>
+            <div class="service_image">
+                <div class=" image3">
+                    <p>Contruction of an Estate</p>
+                </div> 
+                <button type="btn" id="service_btn"><a href="estate.html">Read more</a> </button>
+            </div>
+            <div class="service_image">
+                <div class=" image4">
+                    <p>Longlife Hotel </p>
+                </div> 
+                <button type="btn" id="service_btn"><a href="hotel.html">Read more</a> </button>
+            </div>
+            <div class="service_image">
+                <div class="image5">
+                    <p>Agro farm</p>
+                </div> 
+                <button type="btn" id="service_btn"><a href="agro-farm.html">Read more</a> </button>
+            </div> 
+            <div class="service_image">
+                <div class=" image6">
+                    <p>Goods and Services</p>
+                </div> 
+                <button type="btn" id="service_btn"> <a href="goods.html">Read more</a></button>
+            </div>
+        </div>
+    </section>
+
+        <!-- [ This section carries the About properties ] -->
+
+    <section>
+        <div id="about">
+            <div class="container">
+                <div class="some_project">
+                    <p>SOME COMPLETED PROJECTS</p>
+                    <ul>
+                        <li>Construction and completed ultra modern
+                             market in Mabudi.</li>
+                        <li>Construction of a 5 block of modern
+                             classrooms at Zambang L/south.</li>
+                        <li>Renovation of Sabon-Gida Police Station.</li>
+                        <li>Construction of a mini bridge at Mangu LGA.</li>
+                        <li>Constructionof a 2 storey Hospital
+                             administration block at Shendam LGA.</li>
+                        <li>Surface dressing of a 5km road at Magama L/south LGA.</li>
+                        <li>Construction of an ultra modern Primary 
+                            School ongoing at Mikang, Tunkus.</li>
+                    </ul>
+                </div>
+                <div class="about_us">
+                    <p>ABOUT US</p>
+                    <ul>
+                        <li>We give consultancy services in construction, and general life's <br>
+                        affairs of human endeavor.</li>
+                        <li>Supply of Vehicles and Machines parts.</li>
+                        <li>Buying and selling of goods and services.</li>
+                        <li>Execution of construction project ranging from buying Bungalow,<br> 
+                        blocks  or classrooms, Hospital facilities, Residential and complex <br>
+                        comercial structures.</li>
+                        <li>Professional concealing on issues base.</li> 
+                        <li>Deal with agro farm products</li>
+                    </ul>
+                </div>
+                <div class="our_team">
+                    <h4>OUR TEAM</h4>
+                    <!-- founder div-->
+                    <div class="founder_contianer">
+                        <h2>CEO, Chairman and Managing Director.</h2>
+                        <h3>Mr. Mamzum Mallam</h3>
+                        <p>Mr. Mamzum Mallam Is the chief and the Chairman of the
+                         above Company (Mamzum Universal Concepts NIG, LTD). 
+                         He is responsible in directing, suppervising and 
+                         monitoring all activities of the company.
+                        </p>
+                    </div>
+            
+                        <!-- company Acountant div-->
+
+                    <div class="company_accountant_div">
+                        <h2>Company Accountant </h2>
+                        <h3>Mr. Andrew Sambo</h3>
+                        <p> Mr. Andrew Sambo obtained his Professional qualification 
+                        years back, He work as the director of finance and and
+                        retired under Plateau State. He is still active working
+                        as the company accountant.
+                        </p>
+                    </div>
+
+                        <!-- Head of tech div-->    
+
+                    <div class="Head_of_tech">
+                        <h2>Head of Technical Team </h2>
+                        <h3>Engr. Dindul Pongwang</h3>
+                        <p>Incharge of Technical Team and project execution. A civil 
+                        engineer, and a member of the Nigerian Society of engineers
+                        and a Coren certified with Reg No. R56079, a versatile and
+                        gifted young engineer whose experience is undoubtable.  
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+     <!-- contact properties -->
+
+    <section>
+        <div id="contact_div">
+            <div class="location">
+                <h1> Location of Office and Branch</h1>
+                <ul>
+                    <li id="office">Head Office</li>
+                    <li>Dadin Kowa, L/south, Plateau State</li>
+                    <li id="office">Jos Branch</li>
+                    <li>No.7 Christ avenue off Atiku Street, Rayfield</li>
+                    <li id="office">Abuja Branch</li>
+                    <li>No. 12 Gimba Yau Kumo close, Lape estate</li>
+                </ul>
+                <div class="contact">
+                    <h1>Contact</h1>
+                    <ul>
+                        <li>+234-703-657-5507</li>
+                        <li>+234-706-582-4052</li>
+                        <li>+234-903-321-8030</li>
+                    </ul>
+                </div>
+                <div class="social_media_div">
+                    <h1>Media</h1>
+                    <ul>
+                        <li>mauniconnigltd@gmail.com</li>
+                        <li><a href="https://wa.me/qr/NFH6LZOBZYXRA1"> WhatsApp</a></li>
+                        <li><a href="#"><a></li>
+                        <li><a href="https://www.facebook.com/dindul123"> Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_div">
+                <footer>
+                    <p>Copyright &copy; 2022 All Right Reserved</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

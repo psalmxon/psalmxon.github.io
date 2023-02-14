@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Mamzum universal concept NIG.LTD</title>
+    <link rel="stylesheet" href="styling.css">
+    <script src="action.j"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>
+                <i>M-U-C <span style="color:white;">NIG</span> -LTD</i>
+            </p>
+            <nav>
+                <div class="navbar_div">
+                    <ul>
+                        <p onclick="closeMenu()" id="p_close_menu">X
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="service.html">SERVICES</a></li>
+                            <li><a href="about.html"  id="active">ABOUT</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                    </p>
+                </div>
+                <img src="menu.png" onclick="myFunc()" id="btn">
+                <script>
+                    function myFunc() {
+                        document.querySelector('.navbar_div').style.display ="block";
+                        document.querySelector('.navbar_div').style.width ="50%";
+                        document.querySelector('.navbar_div').style.transition ="0.5s";
+                    }
+                    function closeMenu() {
+                        document.querySelector('.navbar_div').style.display ="none";
+                    }
+                </script>
+            </nav>
+        </div>
+    </header>
+    <!-- This section carries the about properties-->
+    <section>
+        <div id="about">
+            <div class="para">
+                <ul>
+                    <li>We also give consultancy services in construction,<br> 
+                        and general life's affairs of human endeavor.</li>
+                    <li>Supply of Vehicles and Machines parts.</li>
+                    <li>Buying and selling of goods and services.</li>
+                    <li>Execution of construction project ranging<br> 
+                        from buying Bungalow, blocks  or classrooms,<br> 
+                        Hospital facilities, Residential and complex<br> 
+                        comercial structures.</li>
+                    <li>Professional concealing on issues base.</li> 
+                    <li>Deal with agro farm products</li>
+                </ul>
+            </div>
+            <div id="our_team_div">
+                <h1>OUR TEAM</h1>
+                <div class="founder_contianer">
+                    <h2>CEO, Chairman and Managing Director.</h2>
+                    <h3>Mr. Mamzum Mallam</h3>
+                    <p>Mr. Mamzum Mallam Is the chief and the Chairman of the above Company(Mamzum Universal Concepts NIG, LTD).
+                        He is responsible in directing, suppervising and monitoring all activities of the company.
+                    </p>
+                </div><!--hfdhjg
+                <div class="executive_director">
+                    <h2>Bar Danjuma</h2>
+                    <h3></h3>
+                    <p></p>
+                </div> -->
+                <div class="Head_of_tech">
+                    <h2>Head of Technical Team </h2>
+                    <h3>Engr. Dindul Pongwang</h3>
+                    <p>Incharge of Technical Team and project execution. A civil engineer, and a member
+                     of the Nigerian Society of engineers and a Coren certified with Reg No. R56079,
+                      a versatile and gifted young engineer whose experience is undoubtable.  </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+<div class="service_image">
+    <div class="image1">
+        <p>Fueling station construction</p>
+    </div> 
+    <button type="btn" id="service_btn">Read more</button>
+    
+</div> 
+<div class="service_image">
+    <div class=" image2">
+        <p>A two storey building</p>
+    </div> 
+    <button type="btn" id="service_btn">Read more</button>
+    <!--
+    <p>This project was suppervise by our team, it took us less than four(4) months to complete the project.</p>
+</div>-->
+<div class="service_image">
+    <div class=" image3">
+        <p>Contruction of an Estate</p>
+    </div> 
+    <button type="btn" id="service_btn">Read more</button>
+    <!--
+    <p>A project granted a Private organistion  </p>
+</div>-->
+<div class="service_image">
+    <div class=" image4">
+        <p>Longlife Hotel </p>
+    </div> 
+    <button type="btn" id="service_btn">Read more</button>
+    <!--
+    <p>This is the completion of the a hotel, allot of Professionals has come together to see to the succesful finishing of this project.
+        Located at Amor street, Lubo, Karu, nassarawa state
+    </p> -->
+</div>
